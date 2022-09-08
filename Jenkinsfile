@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage ('Build') { git clone
+    stage ('Build') { 
       steps {
       sh 'echo "HELLO WORLD"'
       sh '''
